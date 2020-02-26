@@ -1,0 +1,56 @@
+#loginemail{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.emailloginimg{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 25px!important;
+    height: 13.06px;
+}
+.margin-0{
+    margin: 0!important;
+}
+.emailaddress{
+    border: 1px solid grey;
+}
+#loginpass{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.passimg{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 25px;
+}
+.password{
+    border: 1px solid grey;
+}
+.green{
+    color: #009444;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+.backggreen{
+    background: #009444;
+}
+.outline-none{
+    outline: none;
+}
+.fb{
+    background: #40588A;;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    
+}

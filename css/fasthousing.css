@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    outline: none!important;
+}
+body{
+    font-family: "raleway", sans-serif;
+}
+#search{
+    width: 230px;
+    height: 30px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 50px;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: 0px 2px lightgrey;
+}
+.search{
+    position: relative;
+}
+.container{
+    max-width: 95%!important;
+}
+.fa-search{
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    color: lightgray;
+}
+.filter{
+    height: 30px;
+    border: 1px solid black!important;
+    width: 100px;
+    font-weight: lighter;
+    border-radius: 5px;
+    box-shadow: 0px 2px lightgrey;
+}
+.cursor:hover{
+    cursor: pointer;
+}
+.green{
+    color: #009444;
+}
+.orange{
+    color: #E31F12;
+}
+.bolder{
+    font-weight: bolder;
+}
+.f-13{
+    font-size: 2%vw;
+}
+.f-15{
+    font-size: 2%vw;
+}
+.f-11{
+    font-size: 11px;
+}
+.grey{
+    color: grey;
+}
+.f-20{
+    font-size: 20px;
+}
+.lighter{
+    font-weight: lighter;
+}
+.imgBox{
+    position: relative;
+}
+.imgHeart{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    padding: 3px 5px;
+    background: white;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    color: black!important;
+    left: -16px;
+    background-image: none!important;
+    box-shadow: 0px 2px  black;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    right: -16px;
+    box-shadow: 0px 2px  black;
+    background-image: none!important;
+    color: black;
+    z-index: 100!important;
+}
+#loginemail{
+    width: 100%;
+    outline: none;
+}
+.emailimg{
+    right: 15px;
+    width: 15px;
+}
+.margin-0{
+    margin: 0!important;
+}
+
+@media(max-width:776px) and (min-width:669px){
+    #search{
+        width: 300px;
+        font-size: 27px;
+        height: 50px;
+    }
+    .fa-search{
+        font-size: 27px;
+        left: 10px;
+    }
+    .filter{
+        font-size: 27px;
+        width: 200px;
+        height: 50px;
+    }
+    .fa-bars{
+        color: lightgray;
+    }
+    .f-20{
+        font-size: 32px;
+    }
+    .f-13{
+        font-size: 22px;
+    }
+    .f-15{
+        font-size: 27px;
+    }
+    .f-11{
+        font-size: 17px;
+    }
+    .prev{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -30px;
+        border: 1px solid black;
+    }
+    .next{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: -30px;
+        border: 1px solid black;
+    }
+}

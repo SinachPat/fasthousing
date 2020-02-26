@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="../css/dash.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+</head>
+<body>
+    <div class="container mh w-100 shadow">
+        <div class="row ">
+            <div class="col-lg-1 col-1 d-flex align-items-center justify-content-center">
+                <img class="" src="../img/fast.png" alt="">
+            </div>
+            <div class="col-lg-10 col-10">
+
+            </div>
+            <div class="col-lg-1 col-1 d-flex align-items-center justify-content-center  dropdown">
+                
+        
+                    <div class="line-anchor fastimg w-100 d-flex align-items-center justify-content-center" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="py-3  fastimg" src="../img/Ellipse.png" alt=""> 
+                        <i class="fas fa-bars lines"></i>
+                    </div>
+                   
+                        <div class="dropdown-menu py-0 dm" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item dropfont" href="#">
+                            <img class="iconimg" src="../img/Account.png" alt="">  
+                            Account</a>
+                          <a class="dropdown-item dropfont" href="#">
+                            <img class="iconimg" src="../img/Notifications.png" alt="">
+                            Notifications</a>
+                          <a class="dropdown-item dropfont" href="#">
+                            <img class="iconimg" src="../img/settings.png" alt="">  
+                            Settings</a>
+                          <a class="dropdown-item dropfont" href="#">
+                            <img class="iconimg" src="../img/users.png" alt="">  
+                            Forum</a>
+                          <a class="dropdown-item dropfont" href="#">
+                            <img class="iconimg" src="../img/Exit.png" alt="">  
+                            Log out</a>
+                        </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="container w-100">
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- tabs -->
+                <div class="tabs-left">
+                    <ul class="nav nav-tabs flex-column">
+                        <li class="bb">
+                            <a href="#home" data-toggle="tab">
+                                <img class="sidedashicon" src="../img/grid.png" alt="">
+                            </a>
+                        </li>
+                        <li class="bb">
+                            <a href="#about" data-toggle="tab">
+                                <img class="sidedashicon" src="../img/mylisting.png" alt="">
+                            </a>
+                        </li>
+                        <li class="bb">
+                            <a href="#services" data-toggle="tab">
+                                <img class="sidedashicon" src="../img/users.png" alt="">
+                            </a>
+                        </li>
+                        <li class="bb">
+                            <a href="#contact" data-toggle="tab">
+                                <img class="sidedashicon" src="../img/approveduser.png" alt="">
+                            </a>
+                        </li>
+                        <li class="bb">
+                            <a href="#contact" data-toggle="tab">
+                                <img class="sidedashicon" src="../img/Exit.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="home">            
+                            <div class="board shadow rounded">
+                                <a href="" class="backgreen">
+                                    FastReps board
+                                </a>
+                                <a href="">
+                                    Clients board
+                                </a>
+                            </div>
+                        </div> 
+                        <div class="tab-pane mb-5" id="about"> 
+                            <div class="dashtext">
+                                <h3 class="bbg py-4 mb-4 bolder">
+                                    Fast Representatives Management
+                                </h3>
+                                <h4 class="bold dashtext my-5">
+                                    Approve Listing
+                                </h4>
+                                <div class="d-flex">
+                                    <div id="dashsearchdiv">
+                                        <input placeholder="Search listing" class="dashsearch pl-2" type="search">
+                                        <i class="fas fa-search ml-auto pr-3"></i>   
+                                    </div>
+                                    <div class="ml-3 dropdown">
+                                        <div id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="cursor filter d-flex align-items-center border">
+                                            <i class="pl-3 fas fa-bars"></i>
+                                            <span class="pl-3">
+                                                filter
+                                            </span>
+                                        </div>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 pb-5 ">
+                                <div class="row">
+                                    <div class="col-lg-3 mt-4">
+                                        <div class = "shadow imgback">
+                                            <img class="w-100" src="../img/housepics.png" alt="">
+                                            <p class= "pl-3 redcolor my-3">
+                                                Three bedroom flat, Self con.
+                                            </p>
+                                            <span class="pl-3">N 150,000</span>
+                                        </div>
+                                        <div class="mt-4 d-flex">
+                                            <button class="rounded-pill backgreen px-2 py-2">
+                                                View details
+                                            </button>
+                                            <button class="ml-auto rounded-pill backyellow px-2 py-2">
+                                                View details
+                                            </button>
+
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-lg-3 mt-4">
+                                        <div class = "shadow imgback">
+                                            <img class="w-100" src="../img/housepics.png" alt="">
+                                            <p class= "pl-3 redcolor my-3">
+                                                Three bedroom flat, Self con.
+                                            </p>
+                                            <span class="pl-3">N 150,000</span>
+                                        </div>
+                                        <div class="mt-4 d-flex">
+                                            <button class="rounded-pill backgreen px-2 py-2">
+                                                View details
+                                            </button>
+                                            <button class="ml-auto rounded-pill backyellow px-2 py-2">
+                                                View details
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mt-4">
+                                        <div class = "shadow imgback">
+                                            <img class="w-100" src="../img/housepics.png" alt="">
+                                            <p class= "pl-3 redcolor my-3">
+                                                Three bedroom flat, Self con.
+                                            </p>
+                                            <span class="pl-3">N 150,000</span>
+                                        </div>
+                                        <div class="mt-4 d-flex">
+                                            <button class="rounded-pill backgreen px-2 py-2">
+                                                View details
+                                            </button>
+                                            <button class="ml-auto rounded-pill backyellow px-2 py-2">
+                                                View details
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mt-4">
+                                        <div class = "shadow imgback">
+                                            <img class="w-100" src="../img/housepics.png" alt="">
+                                            <p class= "pl-3 redcolor my-3">
+                                                Three bedroom flat, Self con.
+                                            </p>
+                                            <span class="pl-3">N 150,000</span>
+                                        </div>
+                                        <div class="mt-4 d-flex">
+                                            <button class="rounded-pill backgreen px-2 py-2">
+                                                View details
+                                            </button>
+                                            <button class="ml-auto rounded-pill backyellow px-2 py-2">
+                                                View details
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mt-4">
+                                        <div class = "shadow imgback">
+                                            <img class="w-100" src="../img/housepics.png" alt="">
+                                            <p class= "pl-3 redcolor my-3">
+                                                Three bedroom flat, Self con.
+                                            </p>
+                                            <span class="pl-3">N 150,000</span>
+                                        </div>
+                                        <div class="mt-4 d-flex">
+                                            <button class="rounded-pill backgreen px-2 py-2">
+                                                View details
+                                            </button>
+                                            <button class="ml-auto rounded-pill backyellow px-2 py-2">
+                                                View details
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mt-4">
+                                        <div class = "shadow imgback">
+                                            <img class="w-100" src="../img/housepics.png" alt="">
+                                            <p class= "pl-3 redcolor my-3">
+                                                Three bedroom flat, Self con.
+                                            </p>
+                                            <span class="pl-3">N 150,000</span>
+                                        </div>
+                                        <div class="mt-4 d-flex">
+                                            <button class="rounded-pill backgreen px-2 py-2">
+                                                View details
+                                            </button>
+                                            <button class="ml-auto rounded-pill backyellow px-2 py-2">
+                                                View details
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mt-4">
+                                        <div class = "shadow imgback">
+                                            <img class="w-100" src="../img/housepics.png" alt="">
+                                            <p class= "pl-3 redcolor my-3">
+                                                Three bedroom flat, Self con.
+                                            </p>
+                                            <span class="pl-3">N 150,000</span>
+                                        </div>
+                                        <div class="mt-4 d-flex">
+                                            <button class="rounded-pill backgreen px-2 py-2">
+                                                View details
+                                            </button>
+                                            <button class="ml-auto rounded-pill backyellow px-2 py-2">
+                                                View details
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mt-4">
+                                        <div class = "shadow imgback">
+                                            <img class="w-100" src="../img/housepics.png" alt="">
+                                            <p class= "pl-3 redcolor my-3">
+                                                Three bedroom flat, Self con.
+                                            </p>
+                                            <span class="pl-3">N 150,000</span>
+                                        </div>
+                                        <div class="mt-4 d-flex">
+                                            <button class="rounded-pill backgreen px-2 py-2">
+                                                View details
+                                            </button>
+                                            <button class="ml-auto rounded-pill backyellow px-2 py-2">
+                                                View details
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="tab-pane" id="services"> 
+                            <div class="dashtext">
+                                <h3 class="bbg py-4 mb-4 bolder">
+                                    Fast Representatives Management
+                                </h3>
+                                <h4 class="bold dashtext my-5">
+                                    Approve Listing
+                                </h4>
+                                <div class="d-flex">
+                                    <div id="dashsearchdiv">
+                                        <input placeholder="Search listing" class="dashsearch pl-2" type="search">
+                                        <i class="fas fa-search ml-auto pr-3"></i>   
+                                    </div>
+                                    <div class="ml-3 dropdown">
+                                        <div id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="cursor filter d-flex align-items-center border">
+                                            <i class="pl-3 fas fa-bars"></i>
+                                            <span class="pl-3">
+                                                filter
+                                            </span>
+                                        </div>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <table class="mt-5">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>NAME</th>
+                                        <th>LISTINGS</th>
+                                        <th>DEALS</th>
+                                        <th>PENDING</th>
+                                        <th>REVIEWS</th>
+                                        <th>STATUS</th>
+                                    </tr>
+                                    <tr class="">
+                                        <td class="py-2">
+                                            <div class="rounded-circle imgcircle mx-auto">
+                                                <img class="w-100" src="" alt="">
+                                                <div class="rounded-circle whiteno shadow">
+                                                    3
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="">
+                                            <p>
+                                                Mark Anthony
+                                            </p>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class=" rounded-pill backyellow px-4 py-2">
+                                                15 PROPERTIES
+                                            </button>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="rounded-pill backgreen px-4 py-2">
+                                                123 DEALS
+                                            </button>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="rounded-pill backgreen px-4 py-2">
+                                                3 DEALS
+                                            </button>
+                                        </td>
+                                        <td class="">
+                                            <div class="d-flex justify-content-center">
+                                                <img src="../img/Staryellow.png" alt="">
+                                                <img src="../img/Staryellow.png" alt="">
+                                                <img src="../img/Staryellow.png" alt="">
+                                                <img src="../img/Staryellow.png" alt="">
+                                                <img src="../img/Starwhite.png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="rounded-pill backgreen px-4 py-2">
+                                                ACTIVE
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-2">
+                                            <div class="rounded-circle imgcircle mx-auto">
+                                                <img class="w-100" src="" alt="">
+                                                <div class="rounded-circle whiteno shadow">
+                                                    3
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="">
+                                            <p>
+                                                Mark Anthony
+                                            </p>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class=" rounded-pill backyellow px-4 py-2">
+                                                15 PROPERTIES
+                                            </button>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="rounded-pill backgreen px-4 py-2">
+                                                123 DEALS
+                                            </button>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="rounded-pill backgreen px-4 py-2">
+                                                3 DEALS
+                                            </button>
+                                        </td>
+                                        <td class="">
+                                            <div class="d-flex justify-content-center">
+                                                <img src="../img/Staryellow.png" alt="">
+                                                <img src="../img/Staryellow.png" alt="">
+                                                <img src="../img/Staryellow.png" alt="">
+                                                <img src="../img/Staryellow.png" alt="">
+                                                <img src="../img/Starwhite.png" alt="">
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="rounded-pill backgreen px-4 py-2">
+                                                ACTIVE
+                                            </button>
+                                        </td> 
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    
+                        <div class="tab-pane" id="contact"> 
+                             <div class="">
+                                                 
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /tabs -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

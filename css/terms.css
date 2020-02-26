@@ -1,0 +1,31 @@
+body{
+    font-family: "raleway", sans-serif;
+}
+.container{
+    max-width: 100%!important;
+}
+.myshade{
+    box-shadow: 5px 2px 2px lightgrey;
+}
+.logimg{
+    width: 70px;
+}
+.textbox{
+    position: relative;
+    top: 80px;
+    width: 700px;
+}
+.greentext{
+    color: #009444;
+}
+.termtext{
+    font-size: 12px ;
+}
+.acceptbtn{
+    background:#009444;
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    font-size: 13px;
+    margin-top: 10px;
+}
